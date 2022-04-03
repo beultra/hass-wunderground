@@ -1,16 +1,7 @@
-# WeatherFlow Weather for Home Assistant
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/briis/hass-weatherflow?style=flat-square) [![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=flat-square)](https://github.com/custom-components/hacs) [![](https://img.shields.io/badge/COMMUNITY-FORUM-success?style=flat-square)](https://community.home-assistant.io/t/weatherflow-weather/368627)
+# Wunderground Weather for Home Assistant
 
-The WeatherFlow integration adds support for retreiving weather data from a Personal Weatherstation manufactured by [WeatherFlow](https://weatherflow.com/tempest-weather-system/) using a [REST API](https://weatherflow.github.io/Tempest/api/swagger/).
-
-There is currently support for the following device types within Home Assistant:
-
-* Weather
-  * Two Weather entities will be created per station. One showing an hour based forecast and one showing a day based forecast.
-* Sensor
-  * A whole range of individual sensors will be available. for a complete list of the sensors, see the list below.
-* Binary Sensor
-  * A few binary sensors will be available, that can be used to trigger automations, if f.ex. it starts raining.
+Wunderground weather and forecast integration. Note a wunderground api token is required for this integration to work.
+This provides a weather entity.
 
 ## Table of Contents
 
@@ -32,15 +23,13 @@ There is currently support for the following device types within Home Assistant:
 
 ### HACS installation
 
-This Integration is part of the default HACS store. Search for *weatherflow weather* under *Integrations* and install from there. After the installation of the files you must restart Home Assistant, or else you will not be able to add WeatherFlow Weather from the Integration Page.
-
-If you are not familiar with HACS, or haven't installed it, I would recommend to [look through the HACS documentation](https://hacs.xyz/), before continuing. Even though you can install the Integration manually, I would recommend using HACS, as you would always be reminded when a new release is published.
+TBD
 
 ### Manuel installation
 
 To add WeatherFlow to your installation, create this folder structure in your /config directory:
 
-`custom_components/weatherflow`.
+`custom_components/wunderground`.
 
 Then drop the following files into that folder:
 
